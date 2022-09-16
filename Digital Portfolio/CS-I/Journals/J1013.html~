@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>J1013</title>
+    <style>
+      body{
+	  background-image:url("https://images.unsplash.com/photo-1662903485138-e80caf49c659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");     
+	  background-repeat:no-repeat;
+	  background-size:100vw;
+	  font-family:sans-serif;
+	  color:white;	  
+      }
+
+    </style>
+  </head>
+  <body>
+<center>    <h1>J1013</h1></center>
+    <div class="main">
+      <p style="padding:50px;background-color:black;border-radius:50px;opacity:0.8;">
+      Name: Tanay Sreedharan
+<br>
+      Journal: J1013
+<br>
+Date: 14-Sep-2022
+<br>
+I recieved assistance from: No one
+<br>
+I assisted: Aryan Verma
+<br>
+1.1:This is because this means that the outputs will not be equal to each other as one can be true but the other can't.
+<br>
+2.1. This is because when you are multiplying the numbers amount will grow exponentially.This is beause multiplcation affects growth exponentially.
+<br>
+      What did I learn? I learned about the many symbols used to represent the boolean logics of Algebra.
+<br>
+      What challenges did I encounter? Some of the symbols were very confusing to understand
+<br>
+      How could this experience be improved? Elaborate more on the symbols
+<br>
+How has what I learned affected my thinking? I now understand more boolean logic
+    </div>
+  </body>
+  </html>
