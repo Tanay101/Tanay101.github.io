@@ -4,19 +4,40 @@
     <title>J1012</title>
     <style>
       body{
-	  background-image:url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");     
-	  background-repeat:no-repeat;
-	  background-size:100vw;
+/*	  background-image:url("https://images.unsplash.com/photo-1529686342540-1b43aec0df75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");     
+ */
+	  width: 100%;
+	  height: 100vh;
+	  color: #fff;
+	  background: linear-gradient(-45deg, #ee7752, #E73C7E, #23A6D5, #23d5AB);
+	  background-size: 400% 400%;
+	  position: relative;
+	  animation: change 10s ease-in-out infinite;
+	  font-size:20px;
 	  font-family:sans-serif;
-	  color:white;	  
+	  overflow:auto;
       }
+           @keyframes change{
+
+	  0% {
+	      background-position: 0 50%;
+	  }
+	  50% {
+	      background-position: 100% 50%;
+	  }
+	  100% {
+	      background-position: 0 50%;
+	  }
+      }
+ 
 
     </style>
   </head>
   <body>
    <center> <h1>J1012</h1></center>
-    <div class="main">
-      <p style="padding:50px;background-color:black;border-radius:50px;opacity:0.8;">
+   <div class="main">
+<a href="../index.html">Go back</a>
+     <hr>
       Name: Tanay Sreedharan
 <br>
       Journal: J1012
@@ -27,21 +48,29 @@ Date: 8-Sep-2022
 <br>
       I assisted: Aryan Verma
 <br>
-      1.1:You have to add the ones place then carry over any extra numbers. Then you repeat this step for all digits.
+<h2>1.1: Describe the general process for executing addition, regardless of base.</h2>
+1.1:You have to add the ones place then carry over any extra numbers. Then you repeat this step for all digits.
 <br>
+<h2>2.1: What special factors need to be considered when executing addition with octal numbers?</h2>
 2.1:When adding octal numbers you have to carry over when you reach 8 instead of 10 because you only have 8 different digits.
 <br>
+<h2>3.1: What special factors need to be considered when executing addition with hexadecimal numbers?</h2>
 3.1:You have to carry over in hexadecimal when you reach a 16. This is because hex has 16 digits instead of 10. Also you have to remember to include letter for digits greater than 9.
 <br>
+<h2>4.1: What special factors need to be considered when executing addition with binary numbers?</h2>
   4.1:You have to remeber that it only has two different digits so if you get a two you have to carry that number over to a new spot.                                                                                                                                                <br>
 
-      What did I learn? I learned how to convert numbers between different systems
+<h2>What did I learn?</h2>
+I learned how to convert numbers between different systems. Some of the number systems include binary, hexadecimal, and octal to convert between. This eventually became clearer to me as i continued to practice.
 <br>
-      What challenges did I encounter?I had challenges trying to convert between binary and decimal
+<h2>What challenges did I encounter?</h2>
+I had challenges trying to convert between binary and decimal. due to the large amount of digits that binary has I made many errors when trying to convert between the two. I would find it easier if we had videos to help with this.
 <br>
-      How could this experience be improved?Some videos could help
+<h2>How could this experience be improved?</h2>
+Some videos could help. Much of the math behind these conversions is difficult. It would be significantly easier if we had videos to explains this for us.
 <br>
-How has what I learned affected my thinking?I now understand different types of number systems
+<h2>How has what I learned affected my thinking?</h2>
+I now understand different types of number systems. I also now understand how to convert between these various number systems. This will help when dealing with computers as they work in binary and I will be able to use these numbers in our own context.
 <p>
     </div>
   </body>
