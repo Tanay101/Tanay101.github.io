@@ -2,8 +2,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <p>
     <link rel="stylesheet" href="styles.css">
- <!--   <style>
+
+    <!--   <style>
  
       body{
 	  width: 100%;
@@ -61,5 +63,22 @@
     <hr>
     <center><h1 style="opacity:0;">a</h1></center>
     <center><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="special">Press this button for a suprise<a/><center>
-  </body>
+
+  <script>
+    const pressed = [];
+    const secretCode = 'u r bad';
+
+    window.addEventListener('keyup', (e) => {
+	pressed.push(e.key);
+	pressed.splice(-secretCode.length-1,pressed.length-secretCode.length);
+	if(pressed.join('').includes(secretCode)){
+	    window.alert("secret game found");
+	    window.location="game.html";
+	}
+
+    })
+
+  </script>
+
+</body>
 </html>
