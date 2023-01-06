@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <body style="background:blue;">
+    <div style="padding:10em;background:gray;border-radius:2em;position:absolute;top:50%;bottom:50%;">
+      <form>
+	<label><h1>Grants</h1></label>
+	<label>Name</label><input placeholder="Type something"></input>
+	<label>Status</label>
+	<datalist id="status">
+	  <option value="Applied">
+	  <option value="Not Applied">
+	  <option value="Failed">
+	  <option value="Deadline Approaching">
+	  <option value="Kys">
+	</datalist>
+	<label></label>
+	</form>
+    </div>
+    <body
+ </html>
